@@ -79,7 +79,7 @@ body {
     background: linear-gradient(180deg, #C9AE21 0%, rgba(255, 255, 255, 0) 100%), #7B15AB;
 }
 
-.InBtrSpc {
+.InBtrSpcCard {
     max-width: 750px;
     margin: 0 auto;
     background-color: white;
@@ -92,11 +92,20 @@ body {
     overflow: hidden;
 }
 
-.InBtrSpc h1 {
+.InBtrSpc {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 50px 80px;
+    z-index: 2;
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+
+.InBtrSpcCard h1 {
     font-size: 45px;
 }
 
-.InBtrSpc p {
+.InBtrSpcCard p {
     font-size: 18.5px;
     line-height: 1.3;
 }
